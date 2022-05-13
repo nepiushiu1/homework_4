@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homewopk_3</title>
+    <title>homewopk_4</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,11 +44,19 @@
         <ul class="list contacts-list">
           <li class="header-item">
             <a class="contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              ><svg class="header-icons" width="16" height="12">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="header-item">
-            <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts" href="tel:+380961111111"
+              ><svg class="header-icons" width="10" height="16">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -70,6 +78,11 @@
           <h2 class="visually-hidden">наши достоинства</h2>
           <ul class="dignity-list list">
             <li class="dignity-list-item">
+              <div class="icon-container">
+                <svg class="dignity-icons" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="title-dignity">Внимание к деталям</h3>
               <p class="description-dignity">
                 Идейные соображения, а также начало повседневной работы по
@@ -77,6 +90,11 @@
               </p>
             </li>
             <li class="dignity-list-item">
+              <div class="icon-container">
+                <svg class="dignity-icons" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="title-dignity">Пунктуальность</h3>
               <p class="description-dignity">
                 Задача организации, в особенности же рамки и место обучения
@@ -84,6 +102,11 @@
               </p>
             </li>
             <li class="dignity-list-item">
+              <div class="icon-container">
+                <svg class="dignity-icons" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="title-dignity">Планирование</h3>
               <p class="description-dignity">
                 Равным образом консультация с широким активом в значительной
@@ -91,6 +114,11 @@
               </p>
             </li>
             <li class="dignity-list-item">
+              <div class="icon-container">
+                <svg class="dignity-icons" width="70" height="70">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="title-dignity">Современные технологии</h3>
               <p class="description-dignity">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -188,6 +216,44 @@
           </ul>
         </div>
       </section>
+      <!--section-5-clients-->
+      <section class="section">
+        <div class="container">
+          <h2 class="title-section">Постоянные клиенты</h2>
+          <ul class="list clients-list">
+            <li class="clients-item">
+              <svg class="icons-clients" width="106" height="60">
+                <use href="./images/sprite.svg#icon-Logo-1"></use>
+              </svg>
+            </li>
+            <li class="clients-item">
+              <svg class="icons-clients" width="106" height="60">
+                <use href="./images/sprite.svg#icon-Logo-2"></use>
+              </svg>
+            </li>
+            <li class="clients-item">
+              <svg class="icons-clients" width="106" height="60">
+                <use href="./images/sprite.svg#icon-Logo-3"></use>
+              </svg>
+            </li>
+            <li class="clients-item">
+              <svg class="icons-clients" width="106" height="60">
+                <use href="./images/sprite.svg#icon-Logo-4"></use>
+              </svg>
+            </li>
+            <li class="clients-item">
+              <svg class="icons-clients" width="106" height="60">
+                <use href="./images/sprite.svg#icon-Logo-5"></use>
+              </svg>
+            </li>
+            <li class="clients-item">
+              <svg class="icons-clients" width="106" height="60">
+                <use href="./images/sprite.svg#icon-Logo-6"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <!--footer-->
     <footer class="footer">
@@ -214,6 +280,13 @@
             </li>
           </ul>
         </address>
+        <h3>присоеденяйтесь</h3>
+        <ul class="list">
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
       </div>
     </footer>
   </body>

@@ -131,7 +131,6 @@ img {
 }
 /*section-1*/
 .section-one {
-  background: rgba(47, 48, 58, 1);
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -321,8 +320,8 @@ img {
 .icons-clients {
   fill: rgba(175, 177, 184, 1);
 }
-.clients-item:hover .icons-clients,
-.clients-item:focus .icons-clients {
+.clients-link:hover .icons-clients,
+.clients-link:focus .icons-clients {
   fill: rgba(33, 150, 243, 1);
 }
 
